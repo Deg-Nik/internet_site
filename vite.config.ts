@@ -12,7 +12,7 @@ export default defineConfig({
       assets: path.resolve(__dirname, "src/assets"),
       constants: path.resolve(__dirname, "src/constants"),
       components: path.resolve(__dirname, "src/components"),
-      // consultations: path.resolve(__dirname, "src/consultations"),
+      modules: path.resolve(__dirname, "src/modules"),
       // homeworks: path.resolve(__dirname, "src/homeworks"),
       // lessons: path.resolve(__dirname, "src/lessons"),
       pages: path.resolve(__dirname, "src/pages"),

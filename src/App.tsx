@@ -1,7 +1,9 @@
+import Layout from "modules/Layout/Layout";
+
 function App() {
   return (
     <>      
-    Internet Site
+    <Layout/>
     </>
   )
 }
