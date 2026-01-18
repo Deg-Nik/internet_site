@@ -7,21 +7,22 @@ export const PageWrapper = styled.div`
   flex: 1;
 `;
 
+/* ---------------- HEADER ---------------- */
+
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   width: 100%;
   height: 180px;
-  border-bottom: 1px solid black;
-  background: linear-gradient(to right, blue, rgba(0, 10, 66, 0.99));
   padding: 20px 40px;
+  background: linear-gradient(to right, blue, rgba(0, 10, 66, 0.99));
   color: white;
 
   @media (max-width: 1024px) {
     height: auto;
     padding: 20px;
+    flex-wrap: wrap;
     gap: 20px;
   }
 
@@ -32,51 +33,18 @@ export const Header = styled.header`
   }
 `;
 
-export const Title = styled.h1`
-  font-family: fantasy;
-  font-size: 32px;
-  padding: 20px;
-  cursor: pointer;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
-    padding: 10px;
-  }
-`;
-
-export const H1 = styled.h1`
-  font-weight: bold;
-  font-size: 30px;
-
-  @media (max-width: 768px) {
-    font-size: 22px;
-  }
-`;
-
-export const Paragraph = styled.p`
-  font-family: fantasy;
-  font-size: 30px;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-  }
-`;
-
-export const Paragraph2 = styled.p`
-  padding: 20px;
-
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
-`;
-
 export const Logo = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   height: 170px;
   width: 180px;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    height: 120px;
+    width: 140px;
+  }
 
   @media (max-width: 768px) {
     height: 100px;
@@ -85,19 +53,9 @@ export const Logo = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-`;
-
-export const Img = styled.img`
-  width: 450px;
-  height: 250px;
-
-  @media (max-width: 1024px) {
-    width: 100%;
-    height: auto;
-  }
 `;
 
 export const NavigationContainer = styled.nav`
@@ -106,6 +64,8 @@ export const NavigationContainer = styled.nav`
   align-items: center;
 
   @media (max-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
   }
 
@@ -119,7 +79,6 @@ export const NavigationContainer = styled.nav`
 export const HeaderLink = styled(NavLink)`
   color: white;
   font-size: 20px;
-  font-weight: normal;
   text-decoration: none;
 
   @media (max-width: 768px) {
@@ -127,26 +86,28 @@ export const HeaderLink = styled(NavLink)`
   }
 `;
 
+/* ---------------- MAIN ---------------- */
+
 export const Main = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
-  padding: 40px;
   gap: 40px;
+  padding: 40px;
+  flex: 1;
   background-image: url("/internet_site/background.jpg");
   background-size: cover;
   background-position: center;
 
   @media (max-width: 1024px) {
     flex-direction: column;
-    padding: 30px;
     gap: 30px;
+    padding: 30px;
   }
 
   @media (max-width: 768px) {
-    padding: 20px;
     gap: 20px;
+    padding: 20px;
   }
 `;
 
@@ -154,6 +115,10 @@ export const MainContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
+
+  @media (max-width: 1024px) {
+    gap: 30px;
+  }
 
   @media (max-width: 768px) {
     gap: 20px;
@@ -165,10 +130,26 @@ export const MainImages = styled.div`
   flex-direction: column;
   gap: 40px;
 
+  @media (max-width: 1024px) {
+    gap: 30px;
+  }
+
   @media (max-width: 768px) {
     gap: 20px;
   }
 `;
+
+export const Img = styled.img`
+  width: 450px;
+  height: 250px;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    height: auto;
+  }
+`;
+
+/* ---------------- FOOTER ---------------- */
 
 export const Footer = styled.footer`
   display: flex;
@@ -176,9 +157,8 @@ export const Footer = styled.footer`
   justify-content: flex-start;
   width: 100%;
   height: 150px;
-  border-top: 1px solid black;
-  background: linear-gradient(to left, blue, rgba(0, 10, 66, 0.9));
   padding: 40px;
+  background: linear-gradient(to left, blue, rgba(0, 10, 66, 0.9));
   color: white;
 
   @media (max-width: 1024px) {
@@ -200,8 +180,12 @@ export const FooterLogo = styled.img`
   cursor: pointer;
   margin: 40px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin: 20px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 10px;
   }
 `;
 
@@ -210,7 +194,7 @@ export const FooterContent = styled.div`
   flex-direction: column;
   padding-left: 80px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding-left: 0;
     align-items: center;
     text-align: center;
