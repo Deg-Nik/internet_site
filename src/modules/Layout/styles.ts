@@ -138,16 +138,6 @@ export const NavigationContainer = styled.nav`
   }
 `;
 
-export const HeaderLink = styled(NavLink)`
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-
-  @media (max-width: 768px) {
-    font-size: 18px;
-  }
-`;
-
 /* ---------------- MAIN ---------------- */
 
 export const Main = styled.main`
@@ -187,6 +177,16 @@ export const MainContent = styled.div`
   }
 `;
 
+export const MainLink = styled(NavLink)`
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+`;
+
 export const MainImages = styled.div`
   display: flex;
   flex-direction: column;
@@ -202,8 +202,9 @@ export const MainImages = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 450px;
-  height: 250px;
+  display: flex;
+  width: 850px;
+  height: 350px;
 
   @media (max-width: 1024px) {
     width: 100%;

@@ -20,7 +20,7 @@ const generateButtonColor = (isReversGradientBlue: boolean, isGradientBlue: bool
       return "linear-gradient(to left, blue, rgba(0, 10, 66, 0.9))"
     }
      else {
-      return "#1f27f5";
+      return "#494a64";
     }
   }
 };
@@ -46,13 +46,15 @@ export const ButtonComponent = styled.button<ButtonComponentProps>`
   justify-content: center;
   outline: none;
   border: none;
+  border-radius: 50%;
   padding: 0;
   height: 70px;
   width: 100%;
+  font-family: fantasy;
   background: ${({ $isReversGradientBlue, $isGradientBlue, $isRed, disabled }) =>
     generateButtonColor($isReversGradientBlue, $isGradientBlue, $isRed, disabled)};
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
 

@@ -1,3 +1,4 @@
+import { Outlet, useNavigate } from "react-router"
 import {
   Footer,
   FooterContent,
@@ -14,21 +15,25 @@ import {
   Paragraph2,
   Title,
 } from "./styles"
+import { ROUTES } from "constants/routes"
+import Button from "components/Button/Button"
 
 export default function Layout() {
+  const navigate = useNavigate()
   return (
     <PageWrapper>
       <Header>
-        <Logo>
+        <Logo
+          onClick={() => {
+            navigate(ROUTES.HOME)
+          }}
+        >
           <LogoImg src="./image.png" />
           <Title>Siebert-Isolierungen</Title>
         </Logo>
       </Header>
       <Main>
-        <MainContent>
-          <H1>IHR PARTNER FÜR DAS ISOLIER-HANDWERK SEIT 2010</H1>
-          <Img src="./main.gif"/>
-        </MainContent>
+        <Outlet />
       </Main>
       <Footer>
         <FooterLogo src="./image.png" />
@@ -48,7 +53,6 @@ export default function Layout() {
           <Paragraph2>Mobil: 0173 / 876 13 60</Paragraph2>
           <Paragraph2>info@siebert-isolierungen.de</Paragraph2>
         </FooterContent>
-        
       </Footer>
     </PageWrapper>
   )
