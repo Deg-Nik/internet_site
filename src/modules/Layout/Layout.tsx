@@ -21,18 +21,18 @@ export default function Layout() {
     <PageWrapper>
       <Header>
         <Logo>
-          <LogoImg src="/image.png" />
+          <LogoImg src="./image.png" />
           <Title>Siebert-Isolierungen</Title>
         </Logo>
       </Header>
       <Main>
         <MainContent>
           <H1>IHR PARTNER FÜR DAS ISOLIER-HANDWERK SEIT 2010</H1>
-          <Img src="/main.gif"/>
+          <Img src="./main.gif"/>
         </MainContent>
       </Main>
       <Footer>
-        <FooterLogo src="/image.png" />
+        <FooterLogo src="./image.png" />
         <Paragraph>So findet man uns:</Paragraph>
         <FooterContent>
           <Paragraph2>SIEBERT - ISOLIERUNGEN </Paragraph2>
