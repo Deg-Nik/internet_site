@@ -255,14 +255,14 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 150px;
-  padding: 40px;
+  height: auto;
+  padding: 10px;
   background: linear-gradient(to left, blue, rgba(0, 10, 66, 0.9));
   color: white;
+  flex-wrap: wrap;
 
   @media (max-width: 1024px) {
     flex-direction: column;
-    height: auto;
     padding: 30px;
     gap: 20px;
   }
