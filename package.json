@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -b && vite build",
     "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint:fix": "eslint --fix .",
@@ -44,6 +45,7 @@
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
     "jsdom": "^26.0.0",
     "prettier": "^3.5.3",
