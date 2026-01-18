@@ -10,7 +10,7 @@ export default function Home() {
     <MainContent>
           <H1>IHR PARTNER FÜR DAS ISOLIER-HANDWERK SEIT 2010</H1>
 
-          <Img src="./main.gif" />
+          <Img src="/internet_site/main.gif" />
           <Button
             name={"Wärmedämmung"}
             onClick={() => {
