@@ -90,7 +90,7 @@ export const Main = styled.main`
   flex: 1;
   padding: 40px;
   gap: 40px;
-  background-image: url("public/background.jpg");
+  background-image: url("./background.jpg");
   background-size: cover;
   background-position: center;
   `;
