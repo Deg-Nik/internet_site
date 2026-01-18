@@ -76,21 +76,74 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   display: flex;
   flex-direction: column;
   flex: 1;
-`,Mp=wt.header`
+`,Mp=wt.h1`
+  font-family: fantasy;
+  font-size: 32px;
+  padding: 20px;
+  cursor: pointer;
+
+  @media (max-width: 1024px) {
+    font-size: 28px;
+    padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+    padding: 10px;
+  }
+`,Cp=wt.p`
+  font-family: fantasy;
+  font-size: 30px;
+  line-height: 1.3;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+`,ca=wt.p`
+  padding: 20px;
+  font-size: 22px;
+  line-height: 1.4;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 10px;
+  }
+`,Dp=wt.h1`
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+
+  @media (max-width: 1024px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+`,Up=wt.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   width: 100%;
   height: 180px;
-  border-bottom: 1px solid black;
-  background: linear-gradient(to right, blue, rgba(0, 10, 66, 0.99));
   padding: 20px 40px;
+  background: linear-gradient(to right, blue, rgba(0, 10, 66, 0.99));
   color: white;
 
   @media (max-width: 1024px) {
     height: auto;
     padding: 20px;
+    flex-wrap: wrap;
     gap: 20px;
   }
 
@@ -99,66 +152,35 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
     align-items: flex-start;
     gap: 10px;
   }
-`,Cp=wt.h1`
-  font-family: fantasy;
-  font-size: 32px;
-  padding: 20px;
-  cursor: pointer;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
-    padding: 10px;
-  }
-`,Dp=wt.h1`
-  font-weight: bold;
-  font-size: 30px;
-
-  @media (max-width: 768px) {
-    font-size: 22px;
-  }
-`,Up=wt.p`
-  font-family: fantasy;
-  font-size: 30px;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-  }
-`,ca=wt.p`
-  padding: 20px;
-
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
 `,Np=wt.div`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   height: 170px;
   width: 180px;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    height: 120px;
+    width: 140px;
+  }
 
   @media (max-width: 768px) {
     height: 100px;
     width: 120px;
   }
 `,Hp=wt.img`
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-`,wp=wt.img`
-  width: 450px;
-  height: 250px;
-
-  @media (max-width: 1024px) {
-    width: 100%;
-    height: auto;
-  }
 `;wt.nav`
   display: flex;
   gap: 30px;
   align-items: center;
 
   @media (max-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
   }
 
@@ -170,37 +192,40 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
 `;wt(ay)`
   color: white;
   font-size: 20px;
-  font-weight: normal;
   text-decoration: none;
 
   @media (max-width: 768px) {
     font-size: 18px;
   }
-`;const jp=wt.main`
+`;const wp=wt.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
-  padding: 40px;
   gap: 40px;
+  padding: 40px;
+  flex: 1;
   background-image: url("/internet_site/background.jpg");
   background-size: cover;
   background-position: center;
 
   @media (max-width: 1024px) {
     flex-direction: column;
-    padding: 30px;
     gap: 30px;
+    padding: 30px;
   }
 
   @media (max-width: 768px) {
-    padding: 20px;
     gap: 20px;
+    padding: 20px;
   }
-`,Bp=wt.div`
+`,jp=wt.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
+
+  @media (max-width: 1024px) {
+    gap: 30px;
+  }
 
   @media (max-width: 768px) {
     gap: 20px;
@@ -210,18 +235,29 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   flex-direction: column;
   gap: 40px;
 
+  @media (max-width: 1024px) {
+    gap: 30px;
+  }
+
   @media (max-width: 768px) {
     gap: 20px;
   }
-`;const qp=wt.footer`
+`;const Bp=wt.img`
+  width: 450px;
+  height: 250px;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    height: auto;
+  }
+`,qp=wt.footer`
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
   height: 150px;
-  border-top: 1px solid black;
-  background: linear-gradient(to left, blue, rgba(0, 10, 66, 0.9));
   padding: 40px;
+  background: linear-gradient(to left, blue, rgba(0, 10, 66, 0.9));
   color: white;
 
   @media (max-width: 1024px) {
@@ -241,15 +277,19 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   cursor: pointer;
   margin: 40px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin: 20px;
+  }
+
+  @media (max-width: 768px) {
+    margin: 10px;
   }
 `,Ei=wt.div`
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
+  padding-left: 30px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding-left: 0;
     align-items: center;
     text-align: center;
@@ -262,7 +302,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   color: white;
   font-size: 14px;
   font-weight: bold;
-`;function Yp(){return gt.jsxs(Rp,{children:[gt.jsx(Mp,{children:gt.jsxs(Np,{children:[gt.jsx(Hp,{src:"./image.png"}),gt.jsx(Cp,{children:"Siebert-Isolierungen"})]})}),gt.jsx(jp,{children:gt.jsxs(Bp,{children:[gt.jsx(Dp,{children:"IHR PARTNER FÜR DAS ISOLIER-HANDWERK SEIT 2010"}),gt.jsx(wp,{src:"./main.gif"})]})}),gt.jsxs(qp,{children:[gt.jsx(Lp,{src:"./image.png"}),gt.jsx(Up,{children:"So findet man uns:"}),gt.jsx(Ei,{children:gt.jsx(ca,{children:"SIEBERT - ISOLIERUNGEN "})}),gt.jsxs(Ei,{children:[gt.jsx(ca,{children:"Alexander Siebert"}),gt.jsx(ca,{children:"Urbanstr. 9, 93059 Regensburg"})]}),gt.jsxs(Ei,{children:[gt.jsx(ca,{children:"Tel.: 0941 / 780 37 204"}),gt.jsx(ca,{children:"Fax: 0941 / 780 37 209"})]}),gt.jsxs(Ei,{children:[gt.jsx(ca,{children:"Mobil: 0173 / 876 13 60"}),gt.jsx(ca,{children:"info@siebert-isolierungen.de"})]})]})]})}function Gp(){return gt.jsx(gt.Fragment,{children:gt.jsx(Yp,{})})}function Ft(i){return`Minified Redux error #${i}; visit https://redux.js.org/Errors?code=${i} for the full message or use the non-minified dev environment for full errors. `}var Xp=typeof Symbol=="function"&&Symbol.observable||"@@observable",xm=Xp,Sr=()=>Math.random().toString(36).substring(7).split("").join("."),Qp={INIT:`@@redux/INIT${Sr()}`,REPLACE:`@@redux/REPLACE${Sr()}`,PROBE_UNKNOWN_ACTION:()=>`@@redux/PROBE_UNKNOWN_ACTION${Sr()}`},Mi=Qp;function uy(i){if(typeof i!="object"||i===null)return!1;let c=i;for(;Object.getPrototypeOf(c)!==null;)c=Object.getPrototypeOf(c);return Object.getPrototypeOf(i)===c||Object.getPrototypeOf(i)===null}function iy(i,c,o){if(typeof i!="function")throw new Error(Ft(2));if(typeof c=="function"&&typeof o=="function"||typeof o=="function"&&typeof arguments[3]=="function")throw new Error(Ft(0));if(typeof c=="function"&&typeof o>"u"&&(o=c,c=void 0),typeof o<"u"){if(typeof o!="function")throw new Error(Ft(1));return o(iy)(i,c)}let r=i,s=c,h=new Map,m=h,T=0,v=!1;function y(){m===h&&(m=new Map,h.forEach((B,Y)=>{m.set(Y,B)}))}function x(){if(v)throw new Error(Ft(3));return s}function S(B){if(typeof B!="function")throw new Error(Ft(4));if(v)throw new Error(Ft(5));let Y=!0;y();const q=T++;return m.set(q,B),function(){if(Y){if(v)throw new Error(Ft(6));Y=!1,y(),m.delete(q),h=null}}}function U(B){if(!uy(B))throw new Error(Ft(7));if(typeof B.type>"u")throw new Error(Ft(8));if(typeof B.type!="string")throw new Error(Ft(17));if(v)throw new Error(Ft(9));try{v=!0,s=r(s,B)}finally{v=!1}return(h=m).forEach(q=>{q()}),B}function L(B){if(typeof B!="function")throw new Error(Ft(10));r=B,U({type:Mi.REPLACE})}function G(){const B=S;return{subscribe(Y){if(typeof Y!="object"||Y===null)throw new Error(Ft(11));function q(){const P=Y;P.next&&P.next(x())}return q(),{unsubscribe:B(q)}},[xm](){return this}}}return U({type:Mi.INIT}),{dispatch:U,subscribe:S,getState:x,replaceReducer:L,[xm]:G}}function Zp(i){Object.keys(i).forEach(c=>{const o=i[c];if(typeof o(void 0,{type:Mi.INIT})>"u")throw new Error(Ft(12));if(typeof o(void 0,{type:Mi.PROBE_UNKNOWN_ACTION()})>"u")throw new Error(Ft(13))})}function cy(i){const c=Object.keys(i),o={};for(let h=0;h<c.length;h++){const m=c[h];typeof i[m]=="function"&&(o[m]=i[m])}const r=Object.keys(o);let s;try{Zp(o)}catch(h){s=h}return function(m={},T){if(s)throw s;let v=!1;const y={};for(let x=0;x<r.length;x++){const S=r[x],U=o[S],L=m[S],G=U(L,T);if(typeof G>"u")throw T&&T.type,new Error(Ft(14));y[S]=G,v=v||G!==L}return v=v||r.length!==Object.keys(m).length,v?y:m}}function Ci(...i){return i.length===0?c=>c:i.length===1?i[0]:i.reduce((c,o)=>(...r)=>c(o(...r)))}function Vp(...i){return c=>(o,r)=>{const s=c(o,r);let h=()=>{throw new Error(Ft(15))};const m={getState:s.getState,dispatch:(v,...y)=>h(v,...y)},T=i.map(v=>v(m));return h=Ci(...T)(s.dispatch),{...s,dispatch:h}}}function fy(i){return({dispatch:o,getState:r})=>s=>h=>typeof h=="function"?h(o,r,i):s(h)}var Kp=fy(),Jp=fy,$p=typeof window<"u"&&window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__?window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__:function(){if(arguments.length!==0)return typeof arguments[0]=="object"?Ci:Ci.apply(null,arguments)},ry=class kn extends Array{constructor(...c){super(...c),Object.setPrototypeOf(this,kn.prototype)}static get[Symbol.species](){return kn}concat(...c){return super.concat.apply(this,c)}prepend(...c){return c.length===1&&Array.isArray(c[0])?new kn(...c[0].concat(this)):new kn(...c.concat(this))}};function kp(i,c,o){return i.has(c)?i.get(c):i.set(c,o(c)).get(c)}function Wp(i){return typeof i=="boolean"}var Fp=()=>function(c){const{thunk:o=!0,immutableCheck:r=!0,serializableCheck:s=!0,actionCreatorCheck:h=!0}=c??{};let m=new ry;return o&&(Wp(o)?m.push(Kp):m.push(Jp(o.extraArgument))),m},Ip="RTK_autoBatch",Am=i=>c=>{setTimeout(c,i)},Pp=(i={type:"raf"})=>c=>(...o)=>{const r=c(...o);let s=!0,h=!1,m=!1;const T=new Set,v=i.type==="tick"?queueMicrotask:i.type==="raf"?typeof window<"u"&&window.requestAnimationFrame?window.requestAnimationFrame:Am(10):i.type==="callback"?i.queueNotification:Am(i.timeout),y=()=>{m=!1,h&&(h=!1,T.forEach(x=>x()))};return Object.assign({},r,{subscribe(x){const S=()=>s&&x(),U=r.subscribe(S);return T.add(x),()=>{U(),T.delete(x)}},dispatch(x){var S;try{return s=!((S=x==null?void 0:x.meta)!=null&&S[Ip]),h=!s,h&&(m||(m=!0,v(y))),r.dispatch(x)}finally{s=!0}}})},tb=i=>function(o){const{autoBatch:r=!0}=o??{};let s=new ry(i);return r&&s.push(Pp(typeof r=="object"?r:void 0)),s};function eb(i){const c=Fp(),{reducer:o=void 0,middleware:r,devTools:s=!0,preloadedState:h=void 0,enhancers:m=void 0}=i||{};let T;if(typeof o=="function")T=o;else if(uy(o))T=cy(o);else throw new Error(Qr(1));let v;typeof r=="function"?v=r(c):v=c();let y=Ci;s&&(y=$p({trace:!1,...typeof s=="object"&&s}));const x=Vp(...v),S=tb(x);let U=typeof m=="function"?m(S):S();const L=y(...U);return iy(T,h,L)}var lb="ModuleSymbhasOwnPr-0123456789ABCDEFGHNRVfgctiUvz_KqYTJkLxpZXIjQW",ab=(i=21)=>{let c="",o=i;for(;o--;)c+=lb[Math.random()*64|0];return c},nb=i=>"reducerPath"in i&&typeof i.reducerPath=="string",ub=i=>i.flatMap(c=>nb(c)?[[c.reducerPath,c.reducer]]:Object.entries(c)),Xr=Symbol.for("rtk-state-proxy-original"),ib=i=>!!i&&!!i[Xr],cb=new WeakMap,fb=(i,c,o)=>kp(cb,i,()=>new Proxy(i,{get:(r,s,h)=>{if(s===Xr)return r;const m=Reflect.get(r,s,h);if(typeof m>"u"){const T=o[s];if(typeof T<"u")return T;const v=c[s];if(v){const y=v(void 0,{type:ab()});if(typeof y>"u")throw new Error(Qr(24));return o[s]=y,y}}return m}})),rb=i=>{if(!ib(i))throw new Error(Qr(25));return i[Xr]},ob={},sb=(i=ob)=>i;function db(...i){const c=Object.fromEntries(ub(i)),o=()=>Object.keys(c).length?cy(c):sb;let r=o();function s(v,y){return r(v,y)}s.withLazyLoadedSlices=()=>s;const h={},m=(v,y={})=>{const{reducerPath:x,reducer:S}=v,U=c[x];return!y.overrideExisting&&U&&U!==S||(y.overrideExisting&&U!==S&&delete h[x],c[x]=S,r=o()),s},T=Object.assign(function(y,x){return function(U,...L){return y(fb(x?x(U,...L):U,c,h),...L)}},{original:rb});return Object.assign(s,{inject:m,selector:T})}function Qr(i){return`Minified Redux Toolkit error #${i}; visit https://redux-toolkit.js.org/Errors?code=${i} for the full message or use the non-minified dev environment for full errors. `}const hb=db(),mb=i=>eb({reducer:hb,preloadedState:i}),yb=mb(),vb=Fg`
+`;function Yp(){return gt.jsxs(Rp,{children:[gt.jsx(Up,{children:gt.jsxs(Np,{children:[gt.jsx(Hp,{src:"./image.png"}),gt.jsx(Mp,{children:"Siebert-Isolierungen"})]})}),gt.jsx(wp,{children:gt.jsxs(jp,{children:[gt.jsx(Dp,{children:"IHR PARTNER FÜR DAS ISOLIER-HANDWERK SEIT 2010"}),gt.jsx(Bp,{src:"./main.gif"})]})}),gt.jsxs(qp,{children:[gt.jsx(Lp,{src:"./image.png"}),gt.jsx(Cp,{children:"So findet man uns:"}),gt.jsx(Ei,{children:gt.jsx(ca,{children:"SIEBERT - ISOLIERUNGEN "})}),gt.jsxs(Ei,{children:[gt.jsx(ca,{children:"Alexander Siebert"}),gt.jsx(ca,{children:"Urbanstr. 9, 93059 Regensburg"})]}),gt.jsxs(Ei,{children:[gt.jsx(ca,{children:"Tel.: 0941 / 780 37 204"}),gt.jsx(ca,{children:"Fax: 0941 / 780 37 209"})]}),gt.jsxs(Ei,{children:[gt.jsx(ca,{children:"Mobil: 0173 / 876 13 60"}),gt.jsx(ca,{children:"info@siebert-isolierungen.de"})]})]})]})}function Gp(){return gt.jsx(gt.Fragment,{children:gt.jsx(Yp,{})})}function Ft(i){return`Minified Redux error #${i}; visit https://redux.js.org/Errors?code=${i} for the full message or use the non-minified dev environment for full errors. `}var Xp=typeof Symbol=="function"&&Symbol.observable||"@@observable",xm=Xp,Sr=()=>Math.random().toString(36).substring(7).split("").join("."),Qp={INIT:`@@redux/INIT${Sr()}`,REPLACE:`@@redux/REPLACE${Sr()}`,PROBE_UNKNOWN_ACTION:()=>`@@redux/PROBE_UNKNOWN_ACTION${Sr()}`},Mi=Qp;function uy(i){if(typeof i!="object"||i===null)return!1;let c=i;for(;Object.getPrototypeOf(c)!==null;)c=Object.getPrototypeOf(c);return Object.getPrototypeOf(i)===c||Object.getPrototypeOf(i)===null}function iy(i,c,o){if(typeof i!="function")throw new Error(Ft(2));if(typeof c=="function"&&typeof o=="function"||typeof o=="function"&&typeof arguments[3]=="function")throw new Error(Ft(0));if(typeof c=="function"&&typeof o>"u"&&(o=c,c=void 0),typeof o<"u"){if(typeof o!="function")throw new Error(Ft(1));return o(iy)(i,c)}let r=i,s=c,h=new Map,m=h,T=0,v=!1;function y(){m===h&&(m=new Map,h.forEach((B,Y)=>{m.set(Y,B)}))}function x(){if(v)throw new Error(Ft(3));return s}function S(B){if(typeof B!="function")throw new Error(Ft(4));if(v)throw new Error(Ft(5));let Y=!0;y();const q=T++;return m.set(q,B),function(){if(Y){if(v)throw new Error(Ft(6));Y=!1,y(),m.delete(q),h=null}}}function U(B){if(!uy(B))throw new Error(Ft(7));if(typeof B.type>"u")throw new Error(Ft(8));if(typeof B.type!="string")throw new Error(Ft(17));if(v)throw new Error(Ft(9));try{v=!0,s=r(s,B)}finally{v=!1}return(h=m).forEach(q=>{q()}),B}function L(B){if(typeof B!="function")throw new Error(Ft(10));r=B,U({type:Mi.REPLACE})}function G(){const B=S;return{subscribe(Y){if(typeof Y!="object"||Y===null)throw new Error(Ft(11));function q(){const P=Y;P.next&&P.next(x())}return q(),{unsubscribe:B(q)}},[xm](){return this}}}return U({type:Mi.INIT}),{dispatch:U,subscribe:S,getState:x,replaceReducer:L,[xm]:G}}function Zp(i){Object.keys(i).forEach(c=>{const o=i[c];if(typeof o(void 0,{type:Mi.INIT})>"u")throw new Error(Ft(12));if(typeof o(void 0,{type:Mi.PROBE_UNKNOWN_ACTION()})>"u")throw new Error(Ft(13))})}function cy(i){const c=Object.keys(i),o={};for(let h=0;h<c.length;h++){const m=c[h];typeof i[m]=="function"&&(o[m]=i[m])}const r=Object.keys(o);let s;try{Zp(o)}catch(h){s=h}return function(m={},T){if(s)throw s;let v=!1;const y={};for(let x=0;x<r.length;x++){const S=r[x],U=o[S],L=m[S],G=U(L,T);if(typeof G>"u")throw T&&T.type,new Error(Ft(14));y[S]=G,v=v||G!==L}return v=v||r.length!==Object.keys(m).length,v?y:m}}function Ci(...i){return i.length===0?c=>c:i.length===1?i[0]:i.reduce((c,o)=>(...r)=>c(o(...r)))}function Vp(...i){return c=>(o,r)=>{const s=c(o,r);let h=()=>{throw new Error(Ft(15))};const m={getState:s.getState,dispatch:(v,...y)=>h(v,...y)},T=i.map(v=>v(m));return h=Ci(...T)(s.dispatch),{...s,dispatch:h}}}function fy(i){return({dispatch:o,getState:r})=>s=>h=>typeof h=="function"?h(o,r,i):s(h)}var Kp=fy(),Jp=fy,$p=typeof window<"u"&&window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__?window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__:function(){if(arguments.length!==0)return typeof arguments[0]=="object"?Ci:Ci.apply(null,arguments)},ry=class kn extends Array{constructor(...c){super(...c),Object.setPrototypeOf(this,kn.prototype)}static get[Symbol.species](){return kn}concat(...c){return super.concat.apply(this,c)}prepend(...c){return c.length===1&&Array.isArray(c[0])?new kn(...c[0].concat(this)):new kn(...c.concat(this))}};function kp(i,c,o){return i.has(c)?i.get(c):i.set(c,o(c)).get(c)}function Wp(i){return typeof i=="boolean"}var Fp=()=>function(c){const{thunk:o=!0,immutableCheck:r=!0,serializableCheck:s=!0,actionCreatorCheck:h=!0}=c??{};let m=new ry;return o&&(Wp(o)?m.push(Kp):m.push(Jp(o.extraArgument))),m},Ip="RTK_autoBatch",Am=i=>c=>{setTimeout(c,i)},Pp=(i={type:"raf"})=>c=>(...o)=>{const r=c(...o);let s=!0,h=!1,m=!1;const T=new Set,v=i.type==="tick"?queueMicrotask:i.type==="raf"?typeof window<"u"&&window.requestAnimationFrame?window.requestAnimationFrame:Am(10):i.type==="callback"?i.queueNotification:Am(i.timeout),y=()=>{m=!1,h&&(h=!1,T.forEach(x=>x()))};return Object.assign({},r,{subscribe(x){const S=()=>s&&x(),U=r.subscribe(S);return T.add(x),()=>{U(),T.delete(x)}},dispatch(x){var S;try{return s=!((S=x==null?void 0:x.meta)!=null&&S[Ip]),h=!s,h&&(m||(m=!0,v(y))),r.dispatch(x)}finally{s=!0}}})},tb=i=>function(o){const{autoBatch:r=!0}=o??{};let s=new ry(i);return r&&s.push(Pp(typeof r=="object"?r:void 0)),s};function eb(i){const c=Fp(),{reducer:o=void 0,middleware:r,devTools:s=!0,preloadedState:h=void 0,enhancers:m=void 0}=i||{};let T;if(typeof o=="function")T=o;else if(uy(o))T=cy(o);else throw new Error(Qr(1));let v;typeof r=="function"?v=r(c):v=c();let y=Ci;s&&(y=$p({trace:!1,...typeof s=="object"&&s}));const x=Vp(...v),S=tb(x);let U=typeof m=="function"?m(S):S();const L=y(...U);return iy(T,h,L)}var lb="ModuleSymbhasOwnPr-0123456789ABCDEFGHNRVfgctiUvz_KqYTJkLxpZXIjQW",ab=(i=21)=>{let c="",o=i;for(;o--;)c+=lb[Math.random()*64|0];return c},nb=i=>"reducerPath"in i&&typeof i.reducerPath=="string",ub=i=>i.flatMap(c=>nb(c)?[[c.reducerPath,c.reducer]]:Object.entries(c)),Xr=Symbol.for("rtk-state-proxy-original"),ib=i=>!!i&&!!i[Xr],cb=new WeakMap,fb=(i,c,o)=>kp(cb,i,()=>new Proxy(i,{get:(r,s,h)=>{if(s===Xr)return r;const m=Reflect.get(r,s,h);if(typeof m>"u"){const T=o[s];if(typeof T<"u")return T;const v=c[s];if(v){const y=v(void 0,{type:ab()});if(typeof y>"u")throw new Error(Qr(24));return o[s]=y,y}}return m}})),rb=i=>{if(!ib(i))throw new Error(Qr(25));return i[Xr]},ob={},sb=(i=ob)=>i;function db(...i){const c=Object.fromEntries(ub(i)),o=()=>Object.keys(c).length?cy(c):sb;let r=o();function s(v,y){return r(v,y)}s.withLazyLoadedSlices=()=>s;const h={},m=(v,y={})=>{const{reducerPath:x,reducer:S}=v,U=c[x];return!y.overrideExisting&&U&&U!==S||(y.overrideExisting&&U!==S&&delete h[x],c[x]=S,r=o()),s},T=Object.assign(function(y,x){return function(U,...L){return y(fb(x?x(U,...L):U,c,h),...L)}},{original:rb});return Object.assign(s,{inject:m,selector:T})}function Qr(i){return`Minified Redux Toolkit error #${i}; visit https://redux-toolkit.js.org/Errors?code=${i} for the full message or use the non-minified dev environment for full errors. `}const hb=db(),mb=i=>eb({reducer:hb,preloadedState:i}),yb=mb(),vb=Fg`
   * {
     box-sizing: border-box;
   }
