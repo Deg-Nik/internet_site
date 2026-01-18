@@ -7,6 +7,8 @@ import packageJson from "./package.json" with { type: "json" }
 export default defineConfig({
   plugins: [react()],
 
+  base: "/internet_site/",
+
   resolve: {
     alias: {
       assets: path.resolve(__dirname, "src/assets"),
