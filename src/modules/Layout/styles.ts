@@ -25,11 +25,6 @@ export const Title = styled.h1`
   cursor: pointer;
 `;
 
-export const H2 = styled.h2`
-  display: flex;
-  font-family: fantasy;
-  font-size: 45px;
-`;
 
 export const H1 = styled.h1`
   display: flex;

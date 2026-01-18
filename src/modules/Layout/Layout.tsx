@@ -3,7 +3,6 @@ import {
   FooterContent,
   FooterLogo,
   H1,
-  H2,
   Header,
   Img,
   Logo,
