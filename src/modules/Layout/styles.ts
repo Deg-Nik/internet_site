@@ -7,6 +7,68 @@ export const PageWrapper = styled.div`
   flex: 1;
 `;
 
+export const Title = styled.h1`
+  font-family: fantasy;
+  font-size: 32px;
+  padding: 20px;
+  cursor: pointer;
+
+  @media (max-width: 1024px) {
+    font-size: 28px;
+    padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+    padding: 10px;
+  }
+`;
+
+export const Paragraph = styled.p`
+  font-family: fantasy;
+  font-size: 30px;
+  line-height: 1.3;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+`;
+
+export const Paragraph2 = styled.p`
+  padding: 20px;
+  font-size: 22px;
+  line-height: 1.4;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 10px;
+  }
+`;
+
+export const H1 = styled.h1`
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+
+  @media (max-width: 1024px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+`;
+
 /* ---------------- HEADER ---------------- */
 
 export const Header = styled.header`
@@ -192,7 +254,7 @@ export const FooterLogo = styled.img`
 export const FooterContent = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
+  padding-left: 30px;
 
   @media (max-width: 1024px) {
     padding-left: 0;
