@@ -3,20 +3,17 @@ import {
   Footer,
   FooterContent,
   FooterLogo,
-  H1,
   Header,
-  Img,
   Logo,
   LogoImg,
   Main,
-  MainContent,
   PageWrapper,
   Paragraph,
   Paragraph2,
   Title,
 } from "./styles"
 import { ROUTES } from "constants/routes"
-import Button from "components/Button/Button"
+
 
 export default function Layout() {
   const navigate = useNavigate()
