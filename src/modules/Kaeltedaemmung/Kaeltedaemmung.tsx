@@ -1,5 +1,5 @@
 import { Img } from "constants/styles"
-import { H1, MainContent } from "modules/Layout/styles"
+import { H1, H2, MainContent } from "modules/Layout/styles"
 
 export default function Kaeltedaemmung() {
   return (
@@ -7,7 +7,7 @@ export default function Kaeltedaemmung() {
       <MainContent>
         <H1>Kältedämmung</H1>
         <Img src="/internet_site/kaltedammung.jpg" />
-        <H1>
+        <H2>
           Um Schäden an Oberflächen und Umgebung von z. B. Kälteleitungen,<br />
           Kühlwasserleitungen oder Klimakanälen zu vermeiden, muss die Bildung <br />
           von Tauwasser verhindert werden. Außerdem reduziert eine fachgerechte <br />
@@ -24,7 +24,7 @@ export default function Kaeltedaemmung() {
           * Kunststoffmantel <br />
           * Grobkornmantel <br />
           * Arma-Chek
-        </H1>
+        </H2>
       </MainContent>
     // </PageWrapper>
   )

@@ -1,5 +1,5 @@
 import { Img } from "constants/styles"
-import { H1, MainContent } from "modules/Layout/styles"
+import { H1,H2, MainContent } from "modules/Layout/styles"
 
 export default function Waermedaemmung() {
   return (
@@ -7,7 +7,7 @@ export default function Waermedaemmung() {
       <MainContent>
         <H1>Wärmedämmung</H1>
         <Img src="/internet_site/warmedammung.jpg" />
-        <H1>
+        <H2>
           Energieeinsparung und Klimaschutz sind die wichtigsten Grundlagen<br />
           der Wärmedämmung. Durch den richtigen Einsatz von Dämmstoffen lässt <br />
           sich Energie sparen und Emission verringern. <br />
@@ -24,7 +24,7 @@ export default function Waermedaemmung() {
           * Kunststoffmantel <br />
           * Grobkornmantel <br />
           * Arma-Check
-        </H1>
+        </H2>
       </MainContent>
     // </PageWrapper>
   )

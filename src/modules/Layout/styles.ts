@@ -71,6 +71,20 @@ export const H1 = styled.h1`
   }
 `;
 
+export const H2 = styled.h2`
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+
+  @media (max-width: 1024px) {
+    font-size: 26px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+`;
 /* ---------------- HEADER ---------------- */
 
 export const Header = styled.header`

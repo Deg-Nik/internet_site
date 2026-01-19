@@ -1,5 +1,5 @@
 import { Img } from "constants/styles"
-import { H1, MainContent } from "modules/Layout/styles"
+import { H1,H2, MainContent } from "modules/Layout/styles"
 
 export default function Schallschutz() {
   return (
@@ -7,7 +7,7 @@ export default function Schallschutz() {
       <MainContent>
         <H1>Schallschutz</H1>
         <Img src="/internet_site/schallschutz.jpg" />
-        <H1>
+        <H2>
           Zum Schutz der Gesundheit gewinnt der Schallschutz heute immer mehr <br />
           an Bedeutung. Schädliche Geräuschquellen lassen sich oft einschränken und <br />
           auf ein minimales Maß reduzieren. Wir führen alle Arten von Schallisolierung, <br />
@@ -27,7 +27,7 @@ export default function Schallschutz() {
            * Kunststoffmantel <br />
            * Grobkornmantel <br />
            * Arma-Chek <br />
-        </H1>
+        </H2>
       </MainContent>
     // </PageWrapper>
   )

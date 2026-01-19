@@ -1,5 +1,5 @@
 import { Img } from "constants/styles"
-import { H1, MainContent } from "modules/Layout/styles"
+import { H1, H2, MainContent } from "modules/Layout/styles"
 
 export default function Brandschutz() {
   return (
@@ -7,7 +7,7 @@ export default function Brandschutz() {
       <MainContent>
         <H1>Brandschutz</H1>
         <Img src="/internet_site/brandschutz.jpg" />
-        <H1>
+        <H2>
           Der vorbeugende bauliche Brandschutz dient der Sicherung von Flucht
           <br />
           und Rettungswegen und der Unterstützung der Feuerwehren durch die
@@ -45,7 +45,7 @@ export default function Brandschutz() {
           <br />
           Verpressen von Brandschutzklappen und Aussparungen, mittels <br />
           <br />* Mörtel MG lll
-        </H1>
+        </H2>
       </MainContent>
     // </PageWrapper>
   )
