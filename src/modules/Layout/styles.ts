@@ -74,7 +74,7 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
   display: flex;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.2;
 
   @media (max-width: 1024px) {
