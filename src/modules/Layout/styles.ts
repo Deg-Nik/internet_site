@@ -76,6 +76,7 @@ export const H2 = styled.h2`
   font-weight: bold;
   font-size: 25px;
   line-height: 1.2;
+  padding-left: 10px;
 
   @media (max-width: 1024px) {
     font-size: 26px;
