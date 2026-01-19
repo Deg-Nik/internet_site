@@ -220,13 +220,16 @@ export const MainImages = styled.div`
 `;
 
 export const Img = styled.img`
-  display: flex;
+  display: block;
   width: 850px;
-  height: 350px;
+  height: auto;
 
   @media (max-width: 1024px) {
     width: 50%;
-    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    width: 50%;
   }
 `;
 
