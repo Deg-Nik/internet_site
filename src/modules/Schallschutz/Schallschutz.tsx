@@ -17,11 +17,12 @@ export default function Schallschutz() {
            Schallreduzierung zu erzielen. <br /><br />
            Einsatzgebiete: <br /><br />
            Erstellen von Einhausungen für z.B. Generatoren, Motoren, Kompressoren. <br />
-           Dämmung von Rohrleitungen / Behältern / Apparaten / Armaturen / Lüftungsleitungen <br />
-           in verschiedenen Ausführungen mit <br /><br />
+           Dämmung von Rohrleitungen / Behältern / Apparaten / Armaturen /  <br />
+           Lüftungsleitungen in verschiedenen Ausführungen mit <br /><br />
            * Mineralfaser-/Steinwolldämmstoffen <br />
            * Vinylkautschuk <br /><br />
-           mit Oberflächenschutz, je nach Beanspruchung und Brandschutzanforderung aus <br /><br />
+           mit Oberflächenschutz, je nach Beanspruchung und Brandschutzanforderung <br />
+           aus <br /><br />
            * Blechmantel <br />
            * Kunststoffmantel <br />
            * Grobkornmantel <br />

@@ -151,7 +151,7 @@ export const Main = styled.main`
   padding: 40px;
   flex: 1;
   background-image: url("/internet_site/background.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 
   @media (max-width: 1024px) {

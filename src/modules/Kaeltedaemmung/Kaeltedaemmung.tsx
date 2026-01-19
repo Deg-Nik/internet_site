@@ -12,9 +12,9 @@ export default function Kaeltedaemmung() {
           Kühlwasserleitungen oder Klimakanälen zu vermeiden, muss die Bildung <br />
           von Tauwasser verhindert werden. Außerdem reduziert eine fachgerechte <br />
           Kältedämmung den Energieverbrauch und somit Kosten. <br /><br />
-          Je nach Anwendungsfall, muss Dämmstoff und Oberflächenschutz entsprechend <br />
-          gewählt werden. Wir beraten, planen und sorgen für die sach- und fachgerechte <br />
-          Ausführung. <br /><br />
+          Je nach Anwendungsfall, muss Dämmstoff und Oberflächenschutz  <br />
+          entsprechend gewählt werden. Wir beraten, planen und sorgen für die <br />
+          sach- und fachgerechte Ausführung. <br /><br />
           Einsatzgebiete: <br /><br />
           Dämmung von Rohrleitungen / Behältern / Apparaten / Armaturen / <br />
           Lüftungsleitungen in verschiedenen Ausführungen mit <br /><br />

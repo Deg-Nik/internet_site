@@ -8,14 +8,14 @@ export default function Brandschutz() {
         <H1>Brandschutz</H1>
         <Img src="/internet_site/brandschutz.jpg" />
         <H1>
-          Der vorbeugende bauliche Brandschutz dient der Sicherung von Flucht{" "}
+          Der vorbeugende bauliche Brandschutz dient der Sicherung von Flucht
           <br />
-          und Rettungswegen und der Unterstützung der Feuerwehren durch die{" "}
+          und Rettungswegen und der Unterstützung der Feuerwehren durch die
           <br />
-          Eingrenzung von Rauch und Feuer auf die vorgesehenen Brandabschnitte.{" "}
+          Eingrenzung von Rauch und Feuer auf die vorgesehenen Brandabschnitte.
           <br />
           <br />
-          Um immer auf dem neusten Stand der Technik zu bleiben, veranlassen wir{" "}
+          Um immer auf dem neusten Stand der Technik zu bleiben, veranlassen wir
           <br />
           in regelmäßigen Intervallen Schulungen, unserer Mitarbeiter, durch
           unsere <br />
@@ -23,10 +23,9 @@ export default function Brandschutz() {
           <br />
           Einsatzgebiete: <br />
           <br />
-          Abschotten von Leitungsdurchführungen (Rohre/Kabel/etc.) in
-          raumabschließenden <br />
-          Bauteilen, für die eine Feuerwiderstandsfähigkeit vorgeschrieben ist,
-          mittels <br />
+          Abschotten von Leitungsdurchführungen (Rohre/Kabel/etc.) in <br />
+          raumabschließenden Bauteilen, für die eine Feuerwiderstandsfähigkeit <br />
+          vorgeschrieben ist, mittels 
           <br />
           * Brandschutzmanschette <br />
           * Intumeszierende Bandage <br />
