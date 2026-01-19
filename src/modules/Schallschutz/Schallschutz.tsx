@@ -9,12 +9,12 @@ export default function Schallschutz() {
         <Img src="/internet_site/schallschutz.jpg" />
         <H2>
           Zum Schutz der Gesundheit gewinnt der Schallschutz heute immer mehr <br />
-          an Bedeutung. Schädliche Geräuschquellen lassen sich oft einschränken und <br />
-          auf ein minimales Maß reduzieren. Wir führen alle Arten von Schallisolierung, <br />
-           z. B. in Produktionsbetrieben, Großraumbüros, Industrieanlagen, bei Maschinen <br />
-           und Anlagen aus. <br /><br />
-           Wir planen entsprechende Konstruktionen und Aufbauten, um eine optimale <br />
-           Schallreduzierung zu erzielen. <br /><br />
+          an Bedeutung. Schädliche Geräuschquellen lassen sich oft einschränken <br />
+          und auf ein minimales Maß reduzieren. Wir führen alle Arten von  <br />
+          Schallisolierung, z. B. in Produktionsbetrieben, Großraumbüros,  <br />
+          Industrieanlagen, bei Maschinen und Anlagen aus. <br /><br />
+           Wir planen entsprechende Konstruktionen und Aufbauten, um eine  <br />
+           optimale Schallreduzierung zu erzielen. <br /><br />
            Einsatzgebiete: <br /><br />
            Erstellen von Einhausungen für z.B. Generatoren, Motoren, Kompressoren. <br />
            Dämmung von Rohrleitungen / Behältern / Apparaten / Armaturen /  <br />
