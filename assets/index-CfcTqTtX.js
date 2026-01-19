@@ -164,7 +164,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
 `,$i=Ce.h2`
   display: flex;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.2;
 
   @media (max-width: 1024px) {
