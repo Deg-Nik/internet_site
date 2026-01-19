@@ -299,13 +299,16 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
     gap: 20px;
   }
 `;const ib=Ce.img`
-  display: flex;
+  display: block;
   width: 850px;
-  height: 350px;
+  height: auto;
 
   @media (max-width: 1024px) {
     width: 50%;
-    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    width: 50%;
   }
 `,cb=Ce.footer`
   display: flex;
