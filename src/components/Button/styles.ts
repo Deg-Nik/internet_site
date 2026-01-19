@@ -56,10 +56,20 @@ export const ButtonComponent = styled.button<ButtonComponentProps>`
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
+  font-size: clamp(16px, 4vw, 30px);
+  font-weight: bold;
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
 
   &:hover {
     background-color: ${({ $isRed, disabled }) =>
       generateButtonColorOnHover($isRed, disabled)};
+  }
+
+  @media (max-width: 1024px) {
+    height: 60px;
+  }
+
+  @media (max-width: 768px) {
+    height: 50px;
   }
 `;
