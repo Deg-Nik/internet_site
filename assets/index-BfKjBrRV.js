@@ -76,10 +76,20 @@ Error generating stack: `+a.message+`
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
+  font-size: clamp(16px, 4vw, 30px);
+  font-weight: bold;
   cursor: ${({disabled:u})=>u?"not-allowed":"pointer"};
 
   &:hover {
     background-color: ${({$isRed:u,disabled:c})=>bp(u,c)};
+  }
+
+  @media (max-width: 1024px) {
+    height: 60px;
+  }
+
+  @media (max-width: 768px) {
+    height: 50px;
   }
 `;function Xl({name:u="Send",type:c="button",onClick:o,isReversGradientBlue:r=!1,isGradientBlue:s=!1,isRed:d=!1,isDisabled:m=!1}){return A.jsx(Sp,{$isReversGradientBlue:r,$isGradientBlue:s,$isRed:d,disabled:m,type:c,onClick:o,children:u})}const Ki=Ce.img`
   display: flex;
