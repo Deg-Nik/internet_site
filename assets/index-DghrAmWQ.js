@@ -304,11 +304,11 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   height: auto;
 
   @media (max-width: 1024px) {
-    width: 50%;
+    width: 80%;
   }
 
   @media (max-width: 768px) {
-    width: 50%;
+    width: 100%;
   }
 `,cb=Ce.footer`
   display: flex;
