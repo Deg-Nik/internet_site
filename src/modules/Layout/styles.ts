@@ -225,11 +225,11 @@ export const Img = styled.img`
   height: auto;
 
   @media (max-width: 1024px) {
-    width: 50%;
+    width: 80%;
   }
 
   @media (max-width: 768px) {
-    width: 50%;
+    width: 100%;
   }
 `;
 
