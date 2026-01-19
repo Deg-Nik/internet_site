@@ -14,7 +14,6 @@ import {
 } from "./styles"
 import { ROUTES } from "constants/routes"
 
-
 export default function Layout() {
   const navigate = useNavigate()
   return (
@@ -44,10 +43,9 @@ export default function Layout() {
         </FooterContent>
         <FooterContent>
           <Paragraph2>Tel.: 0941 / 780 37 204</Paragraph2>
-          <Paragraph2>Fax: 0941 / 780 37 209</Paragraph2>
+          <Paragraph2>Mobil: 0173 / 876 13 60</Paragraph2>
         </FooterContent>
         <FooterContent>
-          <Paragraph2>Mobil: 0173 / 876 13 60</Paragraph2>
           <Paragraph2>info@siebert-isolierungen.de</Paragraph2>
         </FooterContent>
       </Footer>

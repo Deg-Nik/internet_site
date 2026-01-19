@@ -1,12 +1,12 @@
-import { PageWrapper, Img } from "constants/styles"
+import { Img } from "constants/styles"
 import { H1, MainContent } from "modules/Layout/styles"
 
 export default function Waermedaemmung() {
   return (
-    <PageWrapper>
+    // <PageWrapper>
       <MainContent>
         <H1>Wärmedämmung</H1>
-        <Img src="./warmedammung.jpg" />
+        <Img src="/internet_site/warmedammung.jpg" />
         <H1>
           Energieeinsparung und Klimaschutz sind die wichtigsten Grundlagen<br />
           der Wärmedämmung. Durch den richtigen Einsatz von Dämmstoffen lässt <br />
@@ -26,6 +26,6 @@ export default function Waermedaemmung() {
           * Arma-Check
         </H1>
       </MainContent>
-    </PageWrapper>
+    // </PageWrapper>
   )
 }

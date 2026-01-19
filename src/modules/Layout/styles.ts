@@ -4,7 +4,9 @@ import { NavLink, type NavLinkRenderProps, Link } from "react-router-dom";
 export const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 1;
+  /* flex: 1; */
+  min-height: 100vh;
+  width: 100%;
 `;
 
 export const Title = styled.h1`
@@ -142,7 +144,8 @@ export const NavigationContainer = styled.nav`
 
 export const Main = styled.main`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   gap: 40px;
   padding: 40px;

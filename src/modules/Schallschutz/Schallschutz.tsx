@@ -1,12 +1,12 @@
-import { PageWrapper, Img } from "constants/styles"
+import { Img } from "constants/styles"
 import { H1, MainContent } from "modules/Layout/styles"
 
 export default function Schallschutz() {
   return (
-    <PageWrapper>
+    // <PageWrapper>
       <MainContent>
         <H1>Schallschutz</H1>
-        <Img src="./schallschutz.jpg" />
+        <Img src="/internet_site/schallschutz.jpg" />
         <H1>
           Zum Schutz der Gesundheit gewinnt der Schallschutz heute immer mehr <br />
           an Bedeutung. Schädliche Geräuschquellen lassen sich oft einschränken und <br />
@@ -28,6 +28,6 @@ export default function Schallschutz() {
            * Arma-Chek <br />
         </H1>
       </MainContent>
-    </PageWrapper>
+    // </PageWrapper>
   )
 }

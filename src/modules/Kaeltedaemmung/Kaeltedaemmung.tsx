@@ -1,12 +1,12 @@
-import { PageWrapper, Img } from "constants/styles"
+import { Img } from "constants/styles"
 import { H1, MainContent } from "modules/Layout/styles"
 
 export default function Kaeltedaemmung() {
   return (
-    <PageWrapper>
+    // <PageWrapper>
       <MainContent>
         <H1>Kältedämmung</H1>
-        <Img src="./kaltedammung.jpg" />
+        <Img src="/internet_site/kaltedammung.jpg" />
         <H1>
           Um Schäden an Oberflächen und Umgebung von z. B. Kälteleitungen,<br />
           Kühlwasserleitungen oder Klimakanälen zu vermeiden, muss die Bildung <br />
@@ -26,6 +26,6 @@ export default function Kaeltedaemmung() {
           * Arma-Chek
         </H1>
       </MainContent>
-    </PageWrapper>
+    // </PageWrapper>
   )
 }
