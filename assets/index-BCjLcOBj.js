@@ -304,7 +304,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   height: 350px;
 
   @media (max-width: 1024px) {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
 `,cb=Ce.footer`
