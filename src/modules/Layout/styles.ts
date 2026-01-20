@@ -227,7 +227,7 @@ export const Img = styled.img`
   height: auto;
 
   @media (max-width: 1366px) {
-    width: 80%;
+    width: 100%;
   }
 
   @media (max-width: 768px) {
