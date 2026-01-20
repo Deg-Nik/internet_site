@@ -15,7 +15,7 @@ export const Title = styled.h1`
   padding: 20px;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 28px;
     padding: 15px;
   }
@@ -31,7 +31,7 @@ export const Paragraph = styled.p`
   font-size: 30px;
   line-height: 1.3;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 24px;
   }
 
@@ -45,7 +45,7 @@ export const Paragraph2 = styled.p`
   font-size: 22px;
   line-height: 1.4;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 20px;
     padding: 15px;
   }
@@ -62,7 +62,7 @@ export const H1 = styled.h1`
   font-size: 30px;
   line-height: 1.2;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 26px;
   }
 
@@ -78,7 +78,7 @@ export const H2 = styled.h2`
   line-height: 1.2;
   padding-left: 30px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 26px;
   }
 
@@ -98,7 +98,7 @@ export const Header = styled.header`
   background: linear-gradient(to right, blue, rgba(0, 10, 66, 0.99));
   color: white;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     height: auto;
     padding: 20px;
     flex-wrap: wrap;
@@ -120,7 +120,7 @@ export const Logo = styled.div`
   width: 180px;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     height: 120px;
     width: 140px;
   }
@@ -142,7 +142,7 @@ export const NavigationContainer = styled.nav`
   gap: 30px;
   align-items: center;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -169,7 +169,7 @@ export const Main = styled.main`
   background-size: 100% 100%;
   background-position: center;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     flex-direction: column;
     gap: 30px;
     padding: 30px;
@@ -189,7 +189,7 @@ export const MainContent = styled.div`
   gap: 40px;
   margin: 0 auto;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     gap: 30px;
     max-width: 700px;
   }
@@ -214,7 +214,7 @@ export const MainImages = styled.div`
   flex-direction: column;
   gap: 40px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     gap: 30px;
   }
 
@@ -228,7 +228,7 @@ export const Img = styled.img`
   width: 850px;
   height: auto;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     width: 80%;
   }
 
@@ -250,7 +250,7 @@ export const Footer = styled.footer`
   color: white;
   flex-wrap: wrap;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     flex-direction: column;
     padding: 30px;
     gap: 20px;
@@ -268,7 +268,7 @@ export const FooterLogo = styled.img`
   cursor: pointer;
   margin: 40px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     margin: 20px;
   }
 
@@ -282,7 +282,7 @@ export const FooterContent = styled.div`
   flex-direction: column;
   padding-left: 30px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     padding-left: 0;
     align-items: center;
     text-align: center;

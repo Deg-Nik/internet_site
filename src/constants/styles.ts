@@ -13,7 +13,7 @@ export const Img = styled.img`
   width: 1000px;
   height: 200px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     width: 80%;
   }
 
