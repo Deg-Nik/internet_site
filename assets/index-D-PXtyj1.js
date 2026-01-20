@@ -96,7 +96,7 @@ Error generating stack: `+a.message+`
   width: 1000px;
   height: 200px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     width: 80%;
   }
 
@@ -126,7 +126,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   padding: 20px;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 28px;
     padding: 15px;
   }
@@ -140,7 +140,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   font-size: 30px;
   line-height: 1.3;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 24px;
   }
 
@@ -152,7 +152,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   font-size: 22px;
   line-height: 1.4;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 20px;
     padding: 15px;
   }
@@ -167,7 +167,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   font-size: 30px;
   line-height: 1.2;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 26px;
   }
 
@@ -181,7 +181,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   line-height: 1.2;
   padding-left: 30px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     font-size: 26px;
   }
 
@@ -198,7 +198,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   background: linear-gradient(to right, blue, rgba(0, 10, 66, 0.99));
   color: white;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     height: auto;
     padding: 20px;
     flex-wrap: wrap;
@@ -218,7 +218,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   width: 180px;
   cursor: pointer;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     height: 120px;
     width: 140px;
   }
@@ -236,7 +236,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   gap: 30px;
   align-items: center;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -259,7 +259,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   background-size: 100% 100%;
   background-position: center;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     flex-direction: column;
     gap: 30px;
     padding: 30px;
@@ -277,7 +277,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   gap: 40px;
   margin: 0 auto;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     gap: 30px;
     max-width: 700px;
   }
@@ -298,7 +298,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   flex-direction: column;
   gap: 40px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     gap: 30px;
   }
 
@@ -310,7 +310,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   width: 850px;
   height: auto;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     width: 80%;
   }
 
@@ -328,7 +328,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   color: white;
   flex-wrap: wrap;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     flex-direction: column;
     padding: 30px;
     gap: 20px;
@@ -344,7 +344,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   cursor: pointer;
   margin: 40px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     margin: 20px;
   }
 
@@ -356,7 +356,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   flex-direction: column;
   padding-left: 30px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1366px) {
     padding-left: 0;
     align-items: center;
     text-align: center;
