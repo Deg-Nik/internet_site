@@ -97,7 +97,7 @@ Error generating stack: `+a.message+`
   height: 200px;
 
   @media (max-width: 1366px) {
-    width: 80%;
+    width: 100%;
   }
 
   @media (max-width: 768px) {
@@ -262,8 +262,6 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   @media (max-width: 1366px) {
     flex-direction: column;
     gap: 30px;
-    padding: 30px;
-    background-size: cover;
   }
 
   @media (max-width: 768px) {
