@@ -173,11 +173,13 @@ export const Main = styled.main`
     flex-direction: column;
     gap: 30px;
     padding: 30px;
+    background-size: cover;
   }
 
   @media (max-width: 768px) {
     gap: 20px;
     padding: 20px;
+    background-size: cover;
   }
 `;
 
