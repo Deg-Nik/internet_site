@@ -98,10 +98,12 @@ Error generating stack: `+a.message+`
 
   @media (max-width: 1366px) {
     width: 100%;
+    height: 80%;
   }
 
   @media (max-width: 768px) {
     width: 100%;
+    height: 80%;
   }
 `;/**
  * react-router v7.12.0
