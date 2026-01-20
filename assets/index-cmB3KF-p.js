@@ -309,7 +309,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   height: auto;
 
   @media (max-width: 1366px) {
-    width: 80%;
+    width: 100%;
   }
 
   @media (max-width: 768px) {
