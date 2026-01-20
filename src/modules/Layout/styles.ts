@@ -172,7 +172,6 @@ export const Main = styled.main`
   @media (max-width: 1366px) {
     flex-direction: column;
     gap: 30px;
-    padding: 30px;
   }
 
   @media (max-width: 768px) {
