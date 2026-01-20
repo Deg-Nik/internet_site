@@ -15,9 +15,11 @@ export const Img = styled.img`
 
   @media (max-width: 1366px) {
     width: 100%;
+    height: 80%;
   }
 
   @media (max-width: 768px) {
     width: 100%;
+    height: 80%;
   }
 `;
