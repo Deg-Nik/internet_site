@@ -275,9 +275,11 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin: 0 auto;
 
   @media (max-width: 1024px) {
     gap: 30px;
+    max-width: 700px;
   }
 
   @media (max-width: 768px) {
