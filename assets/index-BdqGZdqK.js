@@ -260,11 +260,13 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
     flex-direction: column;
     gap: 30px;
     padding: 30px;
+    background-size: cover;
   }
 
   @media (max-width: 768px) {
     gap: 20px;
     padding: 20px;
+    background-size: cover;
   }
 `,ou=Ce.div`
   display: flex;
